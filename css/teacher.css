@@ -1,0 +1,190 @@
+/*** sectioning elements ***/
+
+body {
+background-color: #c60421 ;
+color: #ffffff;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 1px;
+}
+
+header {
+font-size: 45px;
+font-family: 'Jockey One', sans-serif;
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Jockey One', sans-serif;
+}
+
+h2 {
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  text-decoration: underline;
+}
+
+h3 {
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 21px;
+  color: #000000;
+  text-align: center;
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  font-size: 17px;
+  font-family: 'Quattrocento', serif;
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+background-color: #c60421;
+font-family: 'Quattrocento', serif;
+font-size: 14px;
+
+}
+
+li {
+
+}
+
+table {
+border-collapse: collapse;
+}
+
+
+caption {
+  color: #162ae0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #52ace2
+}
+
+tr:nth-child(odd) {
+    background: #e6e6e6;
+}
+
+th {
+  background-color: #0033ff;
+  color: #ffffff;
+  padding: 7px;
+}
+
+td {
+  padding: 7px;
+  color: #000000
+}
+
+@media (max-width: 600px) {
+  table {
+      width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #AAAAAA;
+    display: block;
+    margin: 7px 0;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+/*** image styles ***/
+
+img  {
+
+}
+
+
+/*** link styles ***/
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+color: #ffffff;
+}
+
+a:active {
+color: #ffffff;
+}
